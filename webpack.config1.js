@@ -20,7 +20,7 @@ module.exports = {
         index: 'main.html', // 为了可以展示目录
         contentBase: __dirname, // 默认值就是项目根目录
         host: 'localhost',
-        port: 3000
+        port: 3000,
     },
     output: {
         path: path.resolve(__dirname, 'dist/'),
